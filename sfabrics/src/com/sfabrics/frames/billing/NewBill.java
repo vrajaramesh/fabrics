@@ -34,10 +34,8 @@ public class NewBill extends JFrame {
 	private JPanel contentPane;
 	private JTextField billNoTxtField;
 	private JFormattedDateTextField billdate;
-	private JTextField textField_1;
 	private JTextField mobileNoTxtField;
 	private JTextField customerNameTxtField;
-	private JTextField textField_4;
 	private JTextField billAmountTotal;
 	private JTable table;
 	private NewBillTableModel tableModel;

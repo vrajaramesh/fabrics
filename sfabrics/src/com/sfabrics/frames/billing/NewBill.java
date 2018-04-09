@@ -1,46 +1,33 @@
 package com.sfabrics.frames.billing;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.border.EmptyBorder;
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
-import javax.swing.table.TableColumn;
-
-import org.sfabrics.orders.components.DateEditor;
-import org.sfabrics.orders.components.IntegerEditor;
-import org.sfabrics.orders.components.JFormattedDateTextField;
-import org.sfabrics.orders.components.JTableButtonMouseListener;
-import org.sfabrics.orders.components.OrderTableMeasureCellComboboxEditor;
-
-import com.sfabrics.bo.BillDetailBO;
-import com.sfabrics.bo.CustomerBO;
-import com.sfabrics.bo.OrderBO;
-import com.sfabrics.bo.OrderDetailsBO;
-import com.sfabrics.bo.PaymentDetailsBO;
-import com.sfabrics.frames.orders.neworder.NewOrderTableDeleteRowButtonRenderer;
-import com.sfabrics.frames.orders.neworder.NewOrderTableModel;
-import com.sfabrics.frames.payments.NewOrderPaymentTableModel;
-import com.sfabrics.frames.payments.OrderPaymentsTableDeleteRowButtonRenderer;
-
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.JTextArea;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
 import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
+
+import org.sfabrics.orders.components.IntegerEditor;
+import org.sfabrics.orders.components.JFormattedDateTextField;
+
+import com.sfabrics.bo.BillDetailBO;
+import com.sfabrics.bo.CustomerBO;
 
 public class NewBill extends JFrame {
 
